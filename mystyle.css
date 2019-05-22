@@ -1,0 +1,112 @@
+body {
+  background-color: #585858;
+  color: white;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h1 {
+  color: yellow;
+  font-family: 'Oswald', sans-serif;
+}
+h2 {
+  color: yellow;
+  text-align:center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h3 {
+  color: yellow;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+ 
+}
+a {
+  color: yellow;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+a:hover {
+  color: red;
+}
+dt {
+  float: left;
+  font-weight: bold;
+  color:  #FFD700
+  
+}
+dd {
+margin-left:left;
+  color: yellow;
+  
+}
+img {
+  color: yellow;
+}
+#container{
+	width:1000px;
+	margin: 0 auto;
+}
+#header{
+		max-width: 350px;
+		margin: auto;
+		padding: 10px;
+		background-color: #555d63;
+}
+#sidebar{
+        position: relative;
+	    
+		max-width: 250px;
+		float: right;
+		padding: 10px;
+		background-color: #333;
+		
+		width:27%
+	
+	
+}
+#content{
+	    float:left;
+	    width:64%;
+	
+}
+
+#footer{
+        clear:both;
+		text-align:center;
+}
+		
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	width:720px;
+	
+}/*
+below is for the navigation bar and img alignment etc
+*/
+
+li {
+    float:left;
+	width: 30%
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+img{
+	width:200px;
+    height:200px;
+    object-fit:cover;
+	vertical-align:right;
+	padding: 10px;
+	border-style: solid;
+	border-color: #555d63;
+	
+
+}
